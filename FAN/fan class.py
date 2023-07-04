@@ -1,6 +1,11 @@
 # create a class named Fan to represent a fan
 class Fan:
-# Three constants named SLOW, MEDIUM, and FAST with the values 1, 2, and 3 to denote the fan speed.
+
+    # constants representing the fan speed
+    SLOW = 1
+    MEDIUM = 2
+    FAST = 3
+
 # A private int data field named speed that specifies the speed of the fan.
 # A private bool data field named on that specifies whether the fan is on (the default is False).
 # A private float data field named radius that specifies the radius of the fan.
