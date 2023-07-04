@@ -4,5 +4,12 @@ from fan_class import Fan
 class TestFan:
     def test(self):
 
+        # two Fan objects
         Fan_1 = Fan(Fan.FAST, 10, "Yellow", True)
         Fan_2 = Fan(Fan.MEDIUM, 5, "Blue", False)
+
+        print("Fan 1")
+        print("Speed: " Fan_1.get_fan_speed())
+        print("Radius:", Fan_1.get_fan_radius())
+        print("Color:", Fan_1.get_fan_color())
+        print("On:", Fan_1.get_fan_status())
