@@ -1,8 +1,7 @@
-# Write a test program named TestFan that creates two Fan objects. For the first object, assign the maximum speed, radius 10, color yellow, and turn it on. Assign medium speed, radius 5, color blue, and turn it off for the second object. Display each object’s speed, radius, color, and on properties.
 from fan_class import Fan
 # create a test program with class namednTestFan
 class TestFan:
-    def test(self):
+    def run_test(self):
 
         # two Fan objects
         Fan_1 = Fan(Fan.FAST, 10, "Yellow", True)
@@ -15,8 +14,13 @@ class TestFan:
         print("Color:", Fan_1.get_fan_color())
         print("Status (On):", Fan_1.get_fan_status())
 
+        # for fan 2
         print("\nFan 2")
         print("Speed:", Fan_2.get_fan_speed())
         print("Radius:", Fan_2.get_fan_radius())
         print("Color:", Fan_2.get_fan_color())
         print("Status (On):", Fan_2.get_fan_status())   
+
+# run the test 
+test = TestFan()
+test.run_test()
