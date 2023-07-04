@@ -29,5 +29,12 @@ class Fan:
     def set_fan_status(self, on):
         self.__fan_status = on
 
+    # for fan radius
+    def get_fan_radius(self):
+        return self.__fan_radius
+    def set_fan_radius(self, radius):
+        self.__fan_radius = radius
+        
+
     # A constructor that creates a fan with the specified speed (default SLOW), radius (default 5), color (default blue), and on (default False).
     # Write a test program named TestFan that creates two Fan objects. For the first object, assign the maximum speed, radius 10, color yellow, and turn it on. Assign medium speed, radius 5, color blue, and turn it off for the second object. Display each object’s speed, radius, color, and on properties.
