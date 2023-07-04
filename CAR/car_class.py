@@ -1,4 +1,6 @@
-#Write a class named Car that has the following data attributes:
+# Write a class named Car that has the following data attributes:
+class Car:
+    
 # _ _year_model (for the car’s year model)
 # _ _make (for the make of the car)
 # _ _speed (for the car’s current speed)
