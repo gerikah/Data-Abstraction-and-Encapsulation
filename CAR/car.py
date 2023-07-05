@@ -1,3 +1,4 @@
+# import Car from car_class.py
 from car_class import Car
 
 # car object
@@ -9,7 +10,7 @@ for i in range(5):
     car.accelerate()
     print(f"Current Speed: {car.get_speed()}")
 
-# then call the brake method five times. After each call to the brake method, get the current speed of the car and display it.
+# call the brake method five times. 
 print("Braking: ")
 for i in range(5):
     car.brake()
