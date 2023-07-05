@@ -16,6 +16,6 @@ pet.set_age(age)
 
 # display the informations
 print("Pet Details")
-print("Pet's Name:", pet.get_name)
-print("Animal Type:", pet.get_animal_type)
-print("Age:", pet.get_age)
+print("Pet's Name:", pet.get_name())
+print("Animal Type:", pet.get_animal_type())
+print("Age:", pet.get_age())
