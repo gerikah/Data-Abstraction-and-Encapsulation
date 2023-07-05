@@ -1,18 +1,15 @@
 # create a class named Pet 
 class Pet:
+    # class attributes
     def __init__(self):
         self.__name = " "
         self.__animal_type = " "
         self__age = 0
 
-# which should have the following data attributes:
-# _ _name (for the name of a pet)
-# _ _animal_type (for the type of animal that a pet is. Example values are ‘Dog’, ‘Cat’, and ‘Bird’)
-# _ _age (for the pet’s age)
+    # assign value to __name field
+    def set_name(self, name):
+        self.__name = name
 
-# The Pet class should have an _ _init_ _ method that creates these attributes. It should also have the following methods:
-# set_name()
-# This method assigns a value to the _ _name field.
 # set_animal_type()
 # This method assigns a value to the _ _animal_type field.
 # set_age()
