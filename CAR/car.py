@@ -6,7 +6,6 @@ from pyfiglet import Figlet
 from car_class import Car
 
 init() # initialize colorama
-font_style = Figlet(font="standard")
 
 # car object
 car = Car(2022, "Example Make")
