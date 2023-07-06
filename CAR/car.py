@@ -1,3 +1,7 @@
+# import modules for design
+from colorama import init, Fore
+from pyfiglet import Figlet
+
 # import Car from car_class.py
 from car_class import Car
 
